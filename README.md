@@ -6,7 +6,7 @@ Useful for tracking and discussing hints with your entire team.
 
 ## TeamTracker
 
-This client is a "TeamTracker", which is functionality I implemented in this fork: [CenTdemeern1/Archipelago](https://github.com/CenTdemeern1/Archipelago)
+This client is a "TeamTracker", which means it can use the functionality I implemented in this fork: [CenTdemeern1/Archipelago](https://github.com/CenTdemeern1/Archipelago)
 
 This allows it to see hints for the entire team, instead of just the slot it's connected to, for easier coordination and discussion.
 
@@ -21,7 +21,9 @@ Practical example of this:
 > 
 > Oh wait `@PlayerB` I found your **Flint And Steel Recipes** in a shop I'll get them for you so you can help `@PlayerC`
 
-If IslandBridge is connected to PlayerA's slot, it would not be able to see the aforementioned hint if it wasn't a TeamTracker. Hints in chat are normally only visible to the slot the item belongs to, and the slot the item is in, presumably to prevent unnecessary clutter for the reader.
+If IslandBridge is connected to PlayerA's slot, it would not be able to see the aforementioned hint if it wasn't a TeamTracker.
+
+Hints in chat are normally only visible to the slot the item belongs to, and the slot the item is in, presumably to prevent unnecessary clutter for the reader.
 
 # How to use it
 
