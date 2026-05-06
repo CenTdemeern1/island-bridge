@@ -1,6 +1,6 @@
 # IslandBridge
 
-Dead simple [Archipelago](archipelago.gg) to (Discord) webhook bridge.
+Dead simple [Archipelago](https://archipelago.gg/) to (Discord) webhook bridge.
 
 Useful for tracking and discussing hints with your entire team.
 
