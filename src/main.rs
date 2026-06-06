@@ -234,13 +234,15 @@ async fn main() {
                     }
                     Print::ItemSend { data, .. }
                     | Print::ItemCheat { data, .. }
-                    | Print::Hint { data, .. }
                     | Print::Join { data, .. }
                     | Print::Part { data, .. }
                     | Print::Goal { data, .. }
                     | Print::Release { data, .. }
                     | Print::Collect { data, .. }
                     | Print::Countdown { data, .. } => {
+                        queue_sender.send_webhook_message(simple_message(&format_rich_text(&data)));
+                    }
+                    Print::Hint { data, found, .. } if !found => {
                         queue_sender.send_webhook_message(simple_message(&format_rich_text(&data)));
                     }
                     _ => {}
